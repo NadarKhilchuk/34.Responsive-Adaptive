@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 320px;
+  background-color: red;
+  text-align: center;
+  line-height: 180px;
+  font-size: 32px;
+  white-space: nowrap;
+}
+@media screen and (min-width: 600px) {
+  .container {
+    background-color: green;
+  }
+}
+.container.responsive {
+  max-width: 1440px;
+  margin-bottom: 50px;
+}
+.container.adaptive {
+  max-width: 400px;
+}
+@media screen and (min-width: 600px) {
+  .container.adaptive {
+    max-width: 600px;
+  }
+}
